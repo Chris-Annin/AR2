@@ -14,8 +14,6 @@ This project includes:
 [![Alt text](https://img.youtube.com/vi/AeCLbhPHltw/0.jpg)](https://www.youtube.com/watch?v=AeCLbhPHltw)
 
 
-please view license file
-
 questions: chris.annin@gmail.com
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/ChrisAnnin)
