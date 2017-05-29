@@ -1,6 +1,6 @@
-#AR2
+# AR2
 
-##6 axis stepper motor robot and control software
+## 6 axis stepper motor robot and control software
 
 This project includes:
 
