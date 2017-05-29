@@ -16,6 +16,5 @@ This project includes:
 please view license file
 
 questions: chris.annin@gmail.com
-# Donation Button
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/ChrisAnnin)
