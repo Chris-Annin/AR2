@@ -8,6 +8,7 @@ This project includes:
 - CAD files to 3D print components to build the robot
 - Arduino sketch for stepper driver control
 - Software to program and operate robot
+- Kinamatic model
 
 
 [![Alt text](https://img.youtube.com/vi/AeCLbhPHltw/0.jpg)](https://www.youtube.com/watch?v=AeCLbhPHltw)
