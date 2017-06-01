@@ -13,7 +13,7 @@ This project includes:
 
 [![Alt text](https://img.youtube.com/vi/AeCLbhPHltw/0.jpg)](https://www.youtube.com/watch?v=AeCLbhPHltw)
 
-Setup & programming video: [Programming Video](https://youtu.be/https://youtu.be/ct2wNLvyUrE)
+Setup & programming video: [Programming Video](https://youtu.be/watch?v=ct2wNLvyUrE)
 
 
 questions: chris.annin@gmail.com
