@@ -14,6 +14,7 @@ This project includes:
 [![Alt text](https://img.youtube.com/vi/AeCLbhPHltw/0.jpg)](https://www.youtube.com/watch?v=AeCLbhPHltw)
 
 Setup & programming: [Programming Video](https://youtu.be/ct2wNLvyUrE)
+
 Adapt software for custom robot: [Adapting Software Video](https://youtu.be/gcDdhA0cKz4)
 
 questions: chris.annin@gmail.com
