@@ -17,6 +17,8 @@ Setup & programming: [Programming Video](https://youtu.be/ct2wNLvyUrE)
 
 Adapt software for custom robot: [Adapting Software Video](https://youtu.be/gcDdhA0cKz4)
 
+How the math works: [Kinematic Videos](https://youtu.be/FIx6olybAeQ)
+
 questions: chris.annin@gmail.com
 #
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/ChrisAnnin)
