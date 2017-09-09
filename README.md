@@ -10,6 +10,8 @@ This project includes:
 - Software to program and operate robot
 - Kinamatic model
 
+All geared stepper motors and drivers are available from  [www.omc-stepperonline.com](www.omc-stepperonline.com)
+all other misc hardware are off the shelf items available from multiple sources (see the bill of materials file)
 
 [![Alt text](https://img.youtube.com/vi/AeCLbhPHltw/0.jpg)](https://www.youtube.com/watch?v=AeCLbhPHltw)
 
