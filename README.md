@@ -13,11 +13,11 @@ This project includes:
 All geared stepper motors and drivers are available from  [www.omc-stepperonline.com](https://www.omc-stepperonline.com/?tracking=59c1139e8987b)
 all other misc hardware are off the shelf items available from multiple sources (see the bill of materials file)
 
-[![Alt text](https://img.youtube.com/vi/AeCLbhPHltw/0.jpg)](https://www.youtube.com/watch?v=AeCLbhPHltw)
+[![Alt text](https://img.youtube.com/vi/CCgI4R1TEzI/0.jpg)](https://www.youtube.com/watch?v=CCgI4R1TEzI)
 
-Setup & programming: [Programming Video](https://youtu.be/ct2wNLvyUrE)
+Startup & Calibration: [Calibration Video](https://youtu.be/MMESgfq2Mjg)
 
-Adapt software for custom robot: [Adapting Software Video](https://youtu.be/gcDdhA0cKz4)
+Programming: [Programming Video](https://youtu.be/BozgdjE-HR8)
 
 How the math works: [Kinematic Videos](https://youtu.be/FIx6olybAeQ)
 
