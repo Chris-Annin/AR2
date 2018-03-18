@@ -12,7 +12,7 @@ This project includes:
 
 All geared stepper motors and drivers are available from  [www.omc-stepperonline.com](https://www.omc-stepperonline.com/?tracking=59c1139e8987b) and all other misc. hardware are off-the-shelf items available from multiple sources (see the bill of materials file).
 
-[![Alt text](https://img.youtube.com/vi/CCgI4R1TEzI/0.jpg)](https://www.youtube.com/watch?v=CCgI4R1TEzI)
+[![Alt text](https://img.youtube.com/vi/EAcU4k2Qskk/0.jpg)](https://www.youtube.com/watch?v=EAcU4k2Qskk)
 
 Startup & Calibration: [Calibration Video](https://youtu.be/MMESgfq2Mjg)
 
