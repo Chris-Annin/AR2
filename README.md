@@ -20,6 +20,3 @@ Programming: [Programming Video](https://youtu.be/BozgdjE-HR8)
 
 How the math works: [Kinematic Videos](https://youtu.be/FIx6olybAeQ)
 
-Questions: chris.annin@gmail.com
-#
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/ChrisAnnin)
