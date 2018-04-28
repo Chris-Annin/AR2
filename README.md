@@ -20,3 +20,9 @@ Programming: [Programming Video](https://youtu.be/BozgdjE-HR8)
 
 How the math works: [Kinematic Videos](https://youtu.be/FIx6olybAeQ)
 
+Please review all of the videos on programming and calibration,
+I will try to answer as many emails as I can: chris.annin@gmail.com
+#
+Its important to me that this project is free and available to everyone but any donations that
+can help with all that has gone into it would be hugely appreciated.  Thank you very much.
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/ChrisAnnin)
