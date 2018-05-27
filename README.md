@@ -2,6 +2,8 @@
 
 ## 6 axis stepper motor robot and control software
 
+The AR2 is a small desktop robot that is modeled similar to an industrial 6 axis robot.  This is a DIY project that can be built from 3D printed components or from machined aluminum components, uses low cost stepper motors and arduino controller.
+
 This project includes:
 
 - Bill of materials and instructions
