@@ -1,0 +1,414 @@
+<robot
+  name="AR2urdf">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.022385 0.091307 0.13814"
+        rpy="0 0 0" />
+      <mass
+        value="0.0041185" />
+      <inertia
+        ixx="1.0628E-05"
+        ixy="-8.6059E-23"
+        ixz="-1.8272E-21"
+        iyy="1.0628E-05"
+        iyz="1.0342E-21"
+        izz="2.1257E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="robot_base">
+    <inertial>
+      <origin
+        xyz="1.33668223558162E-06 -0.00667246273292242 0.0390369919658013"
+        rpy="0 0 0" />
+      <mass
+        value="0.714415604163541" />
+      <inertia
+        ixx="0.0039954398696456"
+        ixy="3.78762308769055E-07"
+        ixz="1.74377505860711E-07"
+        iyy="0.00149476529746046"
+        iyz="0.000358656393832864"
+        izz="0.00425217359468441" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/robot_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/robot_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fixed_base"
+    type="fixed">
+    <origin
+      xyz="0.022385 -0.1382 0.043807"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="robot_base" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="link_1">
+    <inertial>
+      <origin
+        xyz="-0.00836310176368426 -0.0473833022519745 -0.0334775584371374"
+        rpy="0 0 0" />
+      <mass
+        value="0.885312663072241" />
+      <inertia
+        ixx="0.00404394594026528"
+        ixy="0.000456310466832901"
+        ixz="3.74661200332505E-05"
+        iyy="0.00347092374464127"
+        iyz="-0.00138112208389163"
+        izz="0.0026430551585677" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_1"
+    type="fixed">
+    <origin
+      xyz="0 0.0475 0.092208"
+      rpy="3.1416 0 -0.65098" />
+    <parent
+      link="robot_base" />
+    <child
+      link="link_1" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="link_2">
+    <inertial>
+      <origin
+        xyz="0.000277137234849512 0.127575058974507 0.0396630207589868"
+        rpy="0 0 0" />
+      <mass
+        value="0.582051758501706" />
+      <inertia
+        ixx="0.00623764341356295"
+        ixy="9.07856184897775E-06"
+        ixz="4.51361333240678E-06"
+        iyy="0.000788049674267171"
+        iyz="-0.000716048738917043"
+        izz="0.00582146304987264" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_2"
+    type="continuous">
+    <origin
+      xyz="-0.038373 -0.051402 -0.077575"
+      rpy="-1.5708 -0.4707 0.92952" />
+    <parent
+      link="link_1" />
+    <child
+      link="link_2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="link_3">
+    <inertial>
+      <origin
+        xyz="6.95508154049951E-05 -0.0241600254878378 -0.00176803240129416"
+        rpy="0 0 0" />
+      <mass
+        value="0.187698685934" />
+      <inertia
+        ixx="0.000185716585043215"
+        ixy="-2.94639183462075E-05"
+        ixz="5.10619107197068E-06"
+        iyy="0.000136050512624381"
+        iyz="2.73533852713673E-05"
+        izz="0.00022027050365671" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_3"
+    type="continuous">
+    <origin
+      xyz="0 0.305 0"
+      rpy="3.1416 -1.9217E-15 -2.3817" />
+    <parent
+      link="link_2" />
+    <child
+      link="link_3" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="link_4">
+    <inertial>
+      <origin
+        xyz="-0.00376385445339366 -3.78882084114407E-05 -0.0795107496446484"
+        rpy="0 0 0" />
+      <mass
+        value="0.328450297861234" />
+      <inertia
+        ixx="0.00293063334981313"
+        ixy="-2.60511381225412E-07"
+        ixz="7.5263130398278E-05"
+        iyy="0.00299562834175631"
+        iyz="3.02009846908714E-07"
+        izz="0.000222429310194749" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_4"
+    type="continuous">
+    <origin
+      xyz="0 0 0"
+      rpy="-1.5708 1.5606 1.5708" />
+    <parent
+      link="link_3" />
+    <child
+      link="link_4" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="link_5">
+    <inertial>
+      <origin
+        xyz="0.0120449060101726 0.00597563925853658 0.00164944308662063"
+        rpy="0 0 0" />
+      <mass
+        value="0.120295967616122" />
+      <inertia
+        ixx="5.52580754099345E-05"
+        ixy="-2.35108173894111E-06"
+        ixz="-2.52587301631158E-07"
+        iyy="5.89968237588527E-05"
+        iyz="-9.11685448688073E-07"
+        izz="8.3862347910248E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_5"
+    type="continuous">
+    <origin
+      xyz="0 -6.0957E-05 -0.22263"
+      rpy="-3.1416 -0.67961 -1.5708" />
+    <parent
+      link="link_4" />
+    <child
+      link="link_5" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="link_6">
+    <inertial>
+      <origin
+        xyz="0.000328627274608168 -4.58615978526922E-10 0.0189708366245626"
+        rpy="0 0 0" />
+      <mass
+        value="0.0491815041868983" />
+      <inertia
+        ixx="1.29288042843526E-05"
+        ixy="1.57250890621741E-08"
+        ixz="-9.90165572152536E-08"
+        iyy="1.98530356035618E-05"
+        iyz="6.33654785109739E-09"
+        izz="1.43400681149379E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AR2urdf/meshes/link_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_6"
+    type="continuous">
+    <origin
+      xyz="-0.026509 0.0075703 -0.0014816"
+      rpy="-1.6272 -0.13926 1.5786" />
+    <parent
+      link="link_5" />
+    <child
+      link="link_6" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+</robot>
