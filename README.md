@@ -3,10 +3,10 @@
 ## 6 axis stepper motor robot and control software
 
 ```diff
-+### PROJECT UPDATES (JULY 2018):
-+ROS development is currently in process.
-+Aluminum kits are on order and expected soon.
-+As soon as parts are received a website will be created to sell not only aluminum components but also complete hardware kits. 
+*** PROJECT UPDATES (JULY 2018) ***
+ROS development is currently in process.
+Aluminum kits are on order and expected soon.
+As soon as parts are received a website will be created to sell not only aluminum components but also complete hardware kits. 
 ```
 
 The AR2 is a small desktop robot that is modeled similar to an industrial 6 axis robot.  This is a DIY project that can be built from 3D printed components or from machined aluminum components, uses low cost stepper motors and arduino controller.
