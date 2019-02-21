@@ -1,0 +1,90 @@
+(S'##BEGINNING OF PROGRAM##'
+p0
+S'##start position'
+p1
+S'Move J [start pos]  X) 286.731   Y) 199.803   Z) 138.666   W) -55.06   P) 179.97   R) -124.81   T) 40.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p2
+S'##configure pickup height and wrist pos##'
+p3
+S'Store Position 1 Element 3 = -10'
+p4
+S'Store Position 1 Element 4 = -90'
+p5
+S'Store Position 1 Element 5 = 180'
+p6
+S'Store Position 1 Element 6 = -90'
+p7
+S'##zero pickup offset'
+p8
+S'Store Position 2 Element 1 = 0'
+p9
+S'Store Position 2 Element 2 = 0'
+p10
+S'Store Position 2 Element 3 = 0'
+p11
+S'Store Position 2 Element 4 = 0'
+p12
+S'Store Position 2 Element 5 = 0'
+p13
+S'Store Position 2 Element 6 = 0'
+p14
+S'###START LOOP###'
+p15
+S'Tab Number 1'
+p16
+S'Move J [*]  X) 286.793   Y) 199.847   Z) 138.591   W) -55.06   P) 179.97   R) -124.81   T) 40.0   Speed-45 Ad 15 As 10 Dd 20 Ds 5 $F'
+p17
+S'Get Vision'
+p18
+S'Wait T - wait time - Seconds-1.5'
+p19
+S'Get Vision'
+p20
+S'Out Off - set output OFF - Output-45'
+p21
+S'##move above pickup'
+p22
+S'Store Position 2 Element 3 = 15'
+p23
+S'OFFS SP [SP:1] offs [*SP:2]  [*]  T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p24
+S'##move to pickup'
+p25
+S'Store Position 2 Element 3 = 0'
+p26
+S'OFFS SP [SP:1] offs [*SP:2]  [*]  T) 40.0   Speed-10 Ad 15 As 10 Dd 20 Ds 5 $F'
+p27
+S'##grip part'
+p28
+S'Out On - set output ON - Output-45'
+p29
+S'Wait T - wait time - Seconds-.3'
+p30
+S'##move above pickup'
+p31
+S'Store Position 2 Element 3 = 15'
+p32
+S'OFFS SP [SP:1] offs [*SP:2]  [*]  T) 40.0   Speed-10 Ad 15 As 10 Dd 20 Ds 5 $F'
+p33
+S'Store Position 2 Element 3 = 100'
+p34
+S'OFFS SP [SP:1] offs [*SP:2]  [*]  T) 40.0   Speed-40 Ad 15 As 10 Dd 20 Ds 5 $F'
+p35
+S'##move to setdown'
+p36
+S'Move J [*]  X) -42.055   Y) 398.123   Z) 89.78   W) 3.538   P) 179.98   R) -6.132   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p37
+S'Move J [*]  X) -42.038   Y) 397.961   Z) 64.864   W) 3.621   P) 179.91   R) -6.049   T) 40.0   Speed-10 Ad 15 As 10 Dd 20 Ds 5 $F'
+p38
+S'Out Off - set output OFF - Output-45'
+p39
+S'Wait T - wait time - Seconds-.3'
+p40
+S'Move J [*]  X) -42.044   Y) 398.017   Z) 144.857   W) 3.605   P) 179.92   R) -6.066   T) 40.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p41
+S'Out On - set output ON - Output-45'
+p42
+S'Jump Tab-1'
+p43
+tp44
+.
