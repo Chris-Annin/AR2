@@ -1,4 +1,5 @@
 # AR2 Raspberry Pi Source Files
+Contributed by Zach Allen
 
 This code is modified from the software version ```2.1.5``` so you can drive the AR2 Robot with a Raspberry Pi.  You can use a keyboard, mouse, and monitor with the RPi, or configure it as an access point and connect to it remotely from a tablet or phone using VNC Viewer.
 
