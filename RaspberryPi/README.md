@@ -1,15 +1,15 @@
 # AR2 Raspberry Pi Source Files
 Contributed by Zach Allen
 
-This code is modified from the software version ```2.1.5``` so you can drive the AR2 Robot with a Raspberry Pi.  You can use a keyboard, mouse, and monitor with the RPi, or configure it as an access point and connect to it remotely from a tablet or phone using VNC Viewer.
+This code is modified from the software version `2.1.5` so you can drive the AR2 Robot with a Raspberry Pi.  You can use a keyboard, mouse, and monitor with the RPi, or configure it as an access point and connect to it remotely from a tablet or phone using VNC Viewer.
 
 ## Getting Started
 
 Copy all the files onto your Raspberry Pi using the clone or download function in GitHub.
 
-It is crucial that all of the files are located in  ```/home/pi/Documents/AR2/```.
+It is crucial that all of the files are located in  `/home/pi/Documents/AR2/`.
 
-The paths in the source code are mapped to this directory.  If you would prefer the source files to be located in a different directory, feel free to update all of the paths in the ```AR2.py``` file.
+The paths in the source code are mapped to this directory.  If you would prefer the source files to be located in a different directory, feel free to update all of the paths in the `AR2.py` file.
 
 ### Prerequisites
 
@@ -18,6 +18,11 @@ Make sure you're using a complete version of Raspbian.  This has not been tested
 ### Installing
 
 Once the files are on your Raspberry Pi, you will want to make an executable shortcut on your Desktop.
+
+1. Configure RPi
+2. Set Up Access Point
+3. Create Desktop Shortcut
+4. Set Program to Run on Start Up
 
 ```
 Steps to be updated here
