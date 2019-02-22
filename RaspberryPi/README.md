@@ -17,12 +17,12 @@ Make sure you're using a complete version of Raspbian.  This has not been tested
 
 ### Installing
 
-Once the files are on your Raspberry Pi, you will want to make an executable shortcut on your Desktop.
+Once the files are on your Raspberry Pi, follow the links below to complete the set-up procedure.  All of these are optional, but the most-used functionality will be #3.
 
-1. Configure RPi
-2. Set Up Access Point
-3. Create Desktop Shortcut
-4. Set Program to Run on Start Up
+1. [Configure RPi](ref/CONFIGURE.md)
+2. [Set Up Access Point](ref/AP-SETUP.md)
+3. [Create Desktop Shortcut](ref/SHORTCUT.md)
+4. [Set Program to Run on Start Up](ref/RUN-ON-BOOT.md)
 
 ```
 Steps to be updated here
