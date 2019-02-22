@@ -15,7 +15,7 @@ The paths in the source code are mapped to this directory.  If you would prefer 
 
 Make sure you're using a complete version of Raspbian.  This has not been tested on other OS versions.  Find the latest Raspbian distribution at Raspberry Pi's [Download](https://www.raspberrypi.org/downloads/raspbian/) page.
 
-### Installing
+### Installation
 
 Once the files are on your Raspberry Pi, follow the links below to complete the set-up procedure.  All of these are optional, but the most-used functionality will be #3.
 
@@ -23,10 +23,6 @@ Once the files are on your Raspberry Pi, follow the links below to complete the 
 2. [Set Up Access Point](ref/AP-SETUP.md)
 3. [Create Desktop Shortcut](ref/SHORTCUT.md)
 4. [Set Program to Run on Start Up](ref/RUN-ON-BOOT.md)
-
-```
-Steps to be updated here
-```
 
 ## Using the program
 
