@@ -3,10 +3,6 @@
 
 This guide will show you how to create a Desktop shortcut from which you can run the program.
 
-## Make the AR2.py Executable
-
-## Create the Desktop Shortcut
-
 Open a terminal window and point the directory to the Desktop
 ```
 cd /home/pi/Desktop/
@@ -35,13 +31,15 @@ y
 Enter
 ```
 
-Reboot your RPi
+Now, the shortcut should appear on your desktop!
+
+If the shortcut hasn't appeared, reboot your Raspberry Pi.
 ```
 sudo reboot
 ```
 
-Now, the shortcut should appear on your desktop!
+If that still doesn't work, check the spelling of everything and make sure the files are in the correct directory.
 
-If you want the program to start up when you turn on the Raspberry Pi, check out the [run-on-boot documentation](./RUN-ON-BOOT.md)
+If you want the program to start up when you turn on the Raspberry Pi, continue on the [run-on-boot documentation](./RUN-ON-BOOT.md)
 
 [Return to README.md](../README.md)
