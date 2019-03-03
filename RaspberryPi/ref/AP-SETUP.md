@@ -197,4 +197,6 @@ sudo reboot
 >
 > By this point, the Raspberry Pi is acting as an access point, and other devices can associate with it. Associated devices can access the Raspberry Pi access point via its IP address for operations such as rsync, scp, or ssh.
 
+[Continue](./SHORTCUT.md) to making the program executable and creating a desktop shortcut.
+
 [Return to README.md](../README.md)
