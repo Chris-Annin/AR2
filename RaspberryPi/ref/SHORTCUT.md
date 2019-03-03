@@ -3,7 +3,9 @@
 
 This guide will show you how to create a Desktop shortcut from which you can run the program.
 
-### Create a Desktop Shortcut
+## Make the AR2.py Executable
+
+## Create the Desktop Shortcut
 
 Open a terminal window and point the directory to the Desktop
 ```
@@ -20,8 +22,8 @@ Type or copy/paste the following into the text file.  This will configure the de
 [Desktop Entry]
 Name=AR2
 Comment=AR2 Robot Control Program
-Icon=/home/pi/Documents/AR2/AR2.ico
-Exec=python /home/pi/Documents/AR2/AR2.py
+Icon=/home/pi/Documents/AR2/RaspberryPi/AR2.ico
+Exec=python /home/pi/Documents/AR2/RaspberryPi/AR2.py
 Type=Application
 Terminal=false
 Categories=None;
