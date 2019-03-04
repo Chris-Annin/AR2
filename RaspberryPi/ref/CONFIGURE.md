@@ -40,6 +40,11 @@ cd /AR2/RaspberryPi
 
 The paths in the source code are mapped to this directory.  If you would prefer the source files to be located in a different directory, all of the paths in the `AR2.py` file must be updated.
 
-[Continue](./AP-SETUP.md) to setting up wireless access point.
+If you want to check that the program run, type the following command
+```
+python AR2.py
+```
+
+[Continue](./SHORTCUT.md) to create a desktop shortcut to run the program.
 
 [Return to README.md](../README.md)
