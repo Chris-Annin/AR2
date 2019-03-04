@@ -12,9 +12,9 @@ Make sure you're using a complete version of Raspbian.  This has not been tested
 Once the files are on your Raspberry Pi, follow the links below to complete the set-up procedure.
 
 1. Follow the [Configure RPi](ref/CONFIGURE.md) guide to clone the GitHub repository to your RPi and to properly set up the configuration settings for the following steps.
-2. Follow the [Access Point](ref/AP-SETUP.md) guide to set up your RPi to connect to it remotely, via a phone or tablet using VNC.
-3. Follow the [Desktop Shortcut](ref/SHORTCUT.md) guide to add a clickable shortcut to your desktop to easily launch the program.
-4. Follow the [Run-on-Boot](ref/RUN-ON-BOOT.md) guide to configure the program to launch automatically when you start the RPi.
+2. Follow the [Desktop Shortcut](ref/SHORTCUT.md) guide to add a clickable shortcut to your desktop to easily launch the program.
+3. Follow the [Run-on-Boot](ref/RUN-ON-BOOT.md) guide to configure the program to launch automatically when you start the RPi.
+4. Follow the [Access Point](ref/AP-SETUP.md) guide to set up your RPi to connect to it remotely, via a phone or tablet using VNC.
 
 ## Using the program
 
