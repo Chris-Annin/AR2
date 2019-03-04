@@ -197,6 +197,8 @@ sudo reboot
 >
 > By this point, the Raspberry Pi is acting as an access point, and other devices can associate with it. Associated devices can access the Raspberry Pi access point via its IP address for operations such as rsync, scp, or ssh.
 
-[Continue](./SHORTCUT.md) to making the program executable and creating a desktop shortcut.
+To connect to your Raspberry Pi from a phone or tablet, download the VNC Viewer app.  Add a device using the RPi's IP address `192.168.4.1` and give it a name such as `Robot`.  Then, type in the RPi's credentials as you've set them up.  If the connection is successful, you should be able to see the RPi's screen and control it remotely.
+
+Congrats, you're all set up to use the AR2 software remotely!  If you have any troubles with this tutorial, please file an issue on the GitHub page and we'll try to get it resolved ASAP.
 
 [Return to README.md](../README.md)
