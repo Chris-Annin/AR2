@@ -1,0 +1,82 @@
+(S'##BEGINNING OF PROGRAM##'
+p0
+S'Tab Number 1'
+p1
+S'Wait T - wait time - Seconds-2'
+p2
+S'Move J [*]  X) 286.887   Y) -0.113   Z) 438.481   W) -77.451   P) 179.908   R) -77.491   T) 40.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p3
+S'Wait T - wait time - Seconds-.5'
+p4
+S'Move J [*]  X) 269.547   Y) -98.227   Z) 438.481   W) -57.451   P) 179.908   R) -77.491   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p5
+S'Wait T - wait time - Seconds-.5'
+p6
+S'Move J [*]  X) 286.887   Y) -0.113   Z) 438.481   W) -77.451   P) 179.908   R) -77.491   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p7
+S'Wait T - wait time - Seconds-.5'
+p8
+S'Move J [*]  X) 181.61   Y) -0.076   Z) 498.419   W) -89.922   P) 159.92   R) -89.965   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p9
+S'Wait T - wait time - Seconds-.5'
+p10
+S'Move J [*]  X) 286.887   Y) -0.113   Z) 438.481   W) -77.451   P) 179.908   R) -77.491   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p11
+S'Wait T - wait time - Seconds-.5'
+p12
+S'Move J [*]  X) 285.876   Y) -0.112   Z) 516.794   W) -89.922   P) 159.92   R) -89.965   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p13
+S'Wait T - wait time - Seconds-.5'
+p14
+S'Move J [*]  X) 286.887   Y) -0.113   Z) 438.481   W) -77.451   P) 179.908   R) -77.491   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p15
+S'Wait T - wait time - Seconds-.5'
+p16
+S'Move J [*]  X) 286.892   Y) 12.28   Z) 440.661   W) -179.715   P) 160.03   R) -179.774   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p17
+S'Wait T - wait time - Seconds-.5'
+p18
+S'Move J [*]  X) 286.887   Y) -0.113   Z) 438.481   W) -77.451   P) 179.908   R) -77.491   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p19
+S'Wait T - wait time - Seconds-.5'
+p20
+S'Move J [*]  X) 299.264   Y) -0.116   Z) 440.68   W) -89.925   P) 159.94   R) -89.962   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p21
+S'Wait T - wait time - Seconds-.5'
+p22
+S'Move J [*]  X) 286.887   Y) -0.113   Z) 438.481   W) -77.451   P) 179.908   R) -77.491   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p23
+S'Wait T - wait time - Seconds-.5'
+p24
+S'Move J [*]  X) 286.887   Y) -0.113   Z) 438.481   W) -77.451   P) 179.908   R) -97.471   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p25
+S'Wait T - wait time - Seconds-.5'
+p26
+S'Move J [*]  X) 286.887   Y) -0.113   Z) 438.481   W) -77.451   P) 179.908   R) -77.491   T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p27
+S'Wait T - wait time - Seconds-.5'
+p28
+S'Move J [*]  X) 206.974   Y) -0.085   Z) 438.524   W) -83.277   P) 179.829   R) -83.318   T) 40.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p29
+S'Wait T - wait time - Seconds-.5'
+p30
+S'Move J [*]  X) 286.84   Y) -0.113   Z) 438.52   W) -78.67   P) 179.898   R) -78.71   T) 40.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p31
+S'Wait T - wait time - Seconds-.5'
+p32
+S'Move J [*]  X) 286.709   Y) -79.902   Z) 438.604   W) -67.72   P) 179.829   R) -67.78   T) 40.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p33
+S'Wait T - wait time - Seconds-.5'
+p34
+S'Move J [*]  X) 286.84   Y) 0.075   Z) 438.52   W) -68.219   P) 179.892   R) -68.219   T) 40.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p35
+S'Wait T - wait time - Seconds-.5'
+p36
+S'Move J [*]  X) 286.804   Y) 0.076   Z) 358.678   W) -71.273   P) 179.884   R) -71.258   T) 40.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p37
+S'Wait T - wait time - Seconds-.5'
+p38
+S'Move J [*]  X) 286.853   Y) 0.075   Z) 438.598   W) -71.585   P) 179.874   R) -71.585   T) 40.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p39
+tp40
+.

@@ -1,0 +1,172 @@
+(S'##BEGINNING OF PROGRAM##'
+p0
+S'##start position'
+p1
+S'Move J [*]  X) 286.887   Y) -0.012   Z) 438.481   W) -77.491   P) 179.908   R) -77.471   T) 200.0   Speed-25 Ad 15 As 10 Dd 20 Ds 5 $F'
+p2
+S'##start with gripper open'
+p3
+S'Out Off - set output OFF - Output-45'
+p4
+S'##define pickup position'
+p5
+S'Store Position 2 Element 1 = 243.522'
+p6
+S'Store Position 2 Element 2 = 399.961'
+p7
+S'Store Position 2 Element 3 = -7.783'
+p8
+S'Store Position 2 Element 4 = -154.678'
+p9
+S'Store Position 2 Element 5 = 175.803'
+p10
+S'Store Position 2 Element 6 = -62.422'
+p11
+S'##define setdown position'
+p12
+S'Store Position 4 Element 1 = 213.495'
+p13
+S'Store Position 4 Element 2 = -391.83'
+p14
+S'Store Position 4 Element 3 = -7.215'
+p15
+S'Store Position 4 Element 4 = -54.991'
+p16
+S'Store Position 4 Element 5 = 177.944'
+p17
+S'Store Position 4 Element 6 = -50.964'
+p18
+S'##zero out pickup offset'
+p19
+S'Store Position 3 Element 1 = 0'
+p20
+S'Store Position 3 Element 2 = 0'
+p21
+S'Store Position 3 Element 3 = 0'
+p22
+S'Store Position 3 Element 4 = 0'
+p23
+S'Store Position 3 Element 5 = 0'
+p24
+S'Store Position 3 Element 6 = 0'
+p25
+S'##zero out setdown offset'
+p26
+S'Store Position 5 Element 1 = 0'
+p27
+S'Store Position 5 Element 2 = 0'
+p28
+S'Store Position 5 Element 3 = 0'
+p29
+S'Store Position 5 Element 4 = 0'
+p30
+S'Store Position 5 Element 5 = 0'
+p31
+S'Store Position 5 Element 6 = 0'
+p32
+S'##zero out setdown approach offset'
+p33
+S'Store Position 6 Element 1 = 0'
+p34
+S'Store Position 6 Element 2 = 0'
+p35
+S'Store Position 6 Element 3 = 0'
+p36
+S'Store Position 6 Element 4 = 0'
+p37
+S'Store Position 6 Element 5 = 0'
+p38
+S'Store Position 6 Element 6 = 0'
+p39
+S'##zero block count'
+p40
+S'Register 1 = 0'
+p41
+S'##################################'
+p42
+S'#########MAIN LOOP START##########'
+p43
+S'Tab Number 1'
+p44
+S'##jump to end if finished'
+p45
+S'If Register 1 = 4 Jump to Tab 999'
+p46
+S'##move above pickup'
+p47
+S'Store Position 3 Element 3 = 200'
+p48
+S'OFFS SP [SP:2] offs [*SP:3]  [*]  T) 40.0   Speed-100 Ad 15 As 10 Dd 20 Ds 5 $F'
+p49
+S'Store Position 3 Element 3 = 50'
+p50
+S'OFFS SP [SP:2] offs [*SP:3]  [*]  T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p51
+S'##move to pickup'
+p52
+S'Store Position 3 Element 3 = 0'
+p53
+S'OFFS SP [SP:2] offs [*SP:3]  [*]  T) 40.0   Speed-10 Ad 15 As 10 Dd 20 Ds 5 $F'
+p54
+S'##close gripper'
+p55
+S'Out On - set output ON - Output-45'
+p56
+S'Wait T - wait time - Seconds-.3'
+p57
+S'##move above pickup'
+p58
+S'Store Position 3 Element 3 = 50'
+p59
+S'OFFS SP [SP:2] offs [*SP:3]  [*]  T) 40.0   Speed-10 Ad 15 As 10 Dd 20 Ds 5 $F'
+p60
+S'Store Position 3 Element 3 = 200'
+p61
+S'OFFS SP [SP:2] offs [*SP:3]  [*]  T) 40.0   Speed-50 Ad 15 As 10 Dd 20 Ds 5 $F'
+p62
+S'##increment X position for next pickup'
+p63
+S'Store Position 3 Element 1 = --50'
+p64
+S'##move above setdown'
+p65
+S'Store Position 6 Element 3 = 100'
+p66
+S'OFFS SP [SP:4] offs [*SP:6]  [*]  T) 400.0   Speed-100 Ad 15 As 10 Dd 20 Ds 5 $F'
+p67
+S'##move to setdown'
+p68
+S'OFFS SP [SP:4] offs [*SP:5]  [*]  T) 400.0   Speed-10 Ad 15 As 10 Dd 20 Ds 5 $F'
+p69
+S'##open gripper'
+p70
+S'Wait T - wait time - Seconds-.3'
+p71
+S'Out Off - set output OFF - Output-45'
+p72
+S'Wait T - wait time - Seconds-.3'
+p73
+S'##move above setdown'
+p74
+S'OFFS SP [SP:4] offs [*SP:6]  [*]  T) 400.0   Speed-10 Ad 15 As 10 Dd 20 Ds 5 $F'
+p75
+S'##increment stack height'
+p76
+S'Store Position 4 Element 3 = ++15'
+p77
+S'##increment block count'
+p78
+S'Register 1 = ++1'
+p79
+S'##jump to beginning'
+p80
+S'Jump Tab-1'
+p81
+S'###END OF PROGRAM COMES HERE###'
+p82
+S'Tab Number 999'
+p83
+S'Move J [*]  X) 286.887   Y) -0.012   Z) 438.481   W) -77.491   P) 179.908   R) -77.471   T) 200.0   Speed-75 Ad 15 As 10 Dd 20 Ds 5 $F'
+p84
+tp85
+.
